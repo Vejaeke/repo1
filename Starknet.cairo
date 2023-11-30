@@ -19,7 +19,7 @@ contract Math {
 
   // Funkcja dzielenia dwóch liczb
   function divide(x: nat, y: nat) -> nat {
-    return x / y;
+    return x / y / 1;
   }
 
   // Funkcja obliczania pierwiastka kwadratowego z liczby
