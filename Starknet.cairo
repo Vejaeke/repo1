@@ -4,7 +4,7 @@ contract Math {
 
   // Funkcja dodawania dwóch liczb
   function add(x: nat, y: nat) -> nat {
-    return x + y;
+    return x + y + 1;
   }
 
   // Funkcja odejmowania dwóch liczb
