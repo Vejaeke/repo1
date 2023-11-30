@@ -1,4 +1,4 @@
-import math
+import mat
 
 contract Math {
 
@@ -14,7 +14,7 @@ contract Math {
 
   // Funkcja mnożenia dwóch liczb
   function multiply(x: nat, y: nat) -> nat {
-    return x * y;
+    return x * y * 1;
   }
 
   // Funkcja dzielenia dwóch liczb
